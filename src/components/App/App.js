@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import Logo from '../../../src/banner.png';
 import Nav from '../../components/Nav';
 import List from '../../components/List';
 import Grid from '../../components/Grid';
@@ -64,10 +65,8 @@ class App extends Component {
             <TitleWrapper>
               <Title>
                 <div>{"#DON'T be left Behind"}</div>
-                <GithubLink
-                  href='git@github.com:itsRealoj/legit-developers-news-reader.git'
-                  target='_blank'>
-                  <h4>Interesting Dev News</h4>
+                <GithubLink>
+                  <h4>Interesting Tech News</h4>
                 </GithubLink>
               </Title>
               <div>
@@ -81,7 +80,9 @@ class App extends Component {
                   target='blank'>
                   <i className='fab fa-slack-hash' />
                 </SocialLink>
-                <SocialLink href='#' target='blank'>
+                <SocialLink
+                  href='https://medium.com/@stephenojwang1040'
+                  target='blank'>
                   <i className='fab fa-medium-m' />
                 </SocialLink>
                 <SocialLink href='#' target='blank'>
@@ -92,6 +93,7 @@ class App extends Component {
                 </SocialLink>
               </div>
             </TitleWrapper>
+            <img src={Logo} height='40vh' width='100%' alt='Tech_news'></img>
             <InfiniteScroll
               dataLength={stories.length}
               next={this.fetchStories}
@@ -109,6 +111,7 @@ class App extends Component {
             </InfiniteScroll>
           </Wrapper>
         </div>
+        <button>GoUp</button>
       </ThemeProvider>
     );
   }
