@@ -1,12 +1,12 @@
 {
-  "main.js": "/static/js/main.7e46268e.chunk.js",
-  "main.js.map": "/static/js/main.7e46268e.chunk.js.map",
-  "static/js/1.c92dd985.chunk.js": "/static/js/1.c92dd985.chunk.js",
-  "static/js/1.c92dd985.chunk.js.map": "/static/js/1.c92dd985.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logol.png": "/static/media/logol.bd4f9a97.png",
-  "index.html": "/index.html",
-  "precache-manifest.ea39fc428f3c400a23e609798b5f03be.js": "/precache-manifest.ea39fc428f3c400a23e609798b5f03be.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/legit-news-reader/static/js/main.2749388e.chunk.js",
+  "main.js.map": "/legit-news-reader/static/js/main.2749388e.chunk.js.map",
+  "static/js/1.e1cef04b.chunk.js": "/legit-news-reader/static/js/1.e1cef04b.chunk.js",
+  "static/js/1.e1cef04b.chunk.js.map": "/legit-news-reader/static/js/1.e1cef04b.chunk.js.map",
+  "runtime~main.js": "/legit-news-reader/static/js/runtime~main.4656c567.js",
+  "runtime~main.js.map": "/legit-news-reader/static/js/runtime~main.4656c567.js.map",
+  "static/media/logol.png": "/legit-news-reader/static/media/logol.bd4f9a97.png",
+  "index.html": "/legit-news-reader/index.html",
+  "precache-manifest.f996a0653d5892b9fce6795e8a17adb2.js": "/legit-news-reader/precache-manifest.f996a0653d5892b9fce6795e8a17adb2.js",
+  "service-worker.js": "/legit-news-reader/service-worker.js"
 }
