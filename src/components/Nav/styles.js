@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { tablet } from '../../styles/mediaQueries';
 
-const HEIGHT = 48;
+const HEIGHT = 60;
 
 export const Header = styled.header`
   background-color: ${({ theme }) => theme.backgroundSecondary};

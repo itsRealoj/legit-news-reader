@@ -19,7 +19,7 @@ const Nav = ({ layout, theme, setLayout, setTheme }) => (
       <Content>
         <NavSection>
           <ExternalLink href='https://legitdev.com' target='_blank'>
-            <Logo src={LegitLogo} /> Legit Dev
+            <Logo src={LegitLogo} /> Legit Dev NEWS
           </ExternalLink>
         </NavSection>
         <NavSection>
