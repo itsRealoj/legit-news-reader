@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/legit-news-reader/static/js/runtime~main.4656c567.js"
   },
   {
-    "revision": "2d1c5e873092552e993a",
-    "url": "/legit-news-reader/static/js/main.2d1c5e87.chunk.js"
+    "revision": "7e7e20237cc111267ce2",
+    "url": "/legit-news-reader/static/js/main.7e7e2023.chunk.js"
   },
   {
     "revision": "e658afb1f00869ae41f7",
     "url": "/legit-news-reader/static/js/1.e658afb1.chunk.js"
   },
   {
-    "revision": "2e56e12a722bcc363eff1d46cf1caa25",
+    "revision": "e371d64e10775adc7c9a06622fb439c6",
     "url": "/legit-news-reader/index.html"
   }
 ];
