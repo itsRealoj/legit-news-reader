@@ -1,6 +1,6 @@
 {
-  "homepage": "http://itsrealoj.github.io/hacker-news-reader",
-  "name": "hacker-news-reader",
+  "homepage": "http://itsrealoj.github.io/legit-news-reader",
+  "name": "legit-news-reader",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
