@@ -1,12 +1,13 @@
 {
-  "main.js": "/legit-news-reader/static/js/main.2749388e.chunk.js",
-  "main.js.map": "/legit-news-reader/static/js/main.2749388e.chunk.js.map",
-  "static/js/1.e1cef04b.chunk.js": "/legit-news-reader/static/js/1.e1cef04b.chunk.js",
-  "static/js/1.e1cef04b.chunk.js.map": "/legit-news-reader/static/js/1.e1cef04b.chunk.js.map",
+  "main.js": "/legit-news-reader/static/js/main.2d1c5e87.chunk.js",
+  "main.js.map": "/legit-news-reader/static/js/main.2d1c5e87.chunk.js.map",
+  "static/js/1.e658afb1.chunk.js": "/legit-news-reader/static/js/1.e658afb1.chunk.js",
+  "static/js/1.e658afb1.chunk.js.map": "/legit-news-reader/static/js/1.e658afb1.chunk.js.map",
   "runtime~main.js": "/legit-news-reader/static/js/runtime~main.4656c567.js",
   "runtime~main.js.map": "/legit-news-reader/static/js/runtime~main.4656c567.js.map",
+  "static/media/banner.png": "/legit-news-reader/static/media/banner.da6b0ebb.png",
   "static/media/logol.png": "/legit-news-reader/static/media/logol.bd4f9a97.png",
   "index.html": "/legit-news-reader/index.html",
-  "precache-manifest.f996a0653d5892b9fce6795e8a17adb2.js": "/legit-news-reader/precache-manifest.f996a0653d5892b9fce6795e8a17adb2.js",
+  "precache-manifest.a29394455cd70b75cda214438ab3e83b.js": "/legit-news-reader/precache-manifest.a29394455cd70b75cda214438ab3e83b.js",
   "service-worker.js": "/legit-news-reader/service-worker.js"
 }
