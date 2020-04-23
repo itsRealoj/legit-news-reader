@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/itsRealoj/legit-developers-news-reader/precache-manifest.8d220d7e8d4bebfbca4e2d4ed6561d66.js"
+  "/legit-news-reader/precache-manifest.f996a0653d5892b9fce6795e8a17adb2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/itsRealoj/legit-developers-news-reader/index.html", {
+workbox.routing.registerNavigationRoute("/legit-news-reader/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

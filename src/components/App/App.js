@@ -63,11 +63,11 @@ class App extends Component {
           <Wrapper>
             <TitleWrapper>
               <Title>
-                <div>{'#Legit-Dev News Reader'}</div>
+                <div>{'#Never be left Behind'}</div>
                 <GithubLink
                   href='git@github.com:itsRealoj/legit-developers-news-reader.git'
                   target='_blank'>
-                  <h3>Interesting Dev News</h3>
+                  <h4>Interesting Dev News</h4>
                 </GithubLink>
               </Title>
               <div>
