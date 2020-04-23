@@ -66,7 +66,7 @@ class App extends Component {
               <Title>
                 <div>{"#DON'T be left Behind"}</div>
                 <GithubLink>
-                  <h4>Interesting Tech News</h4>
+                  <h4>All Things Trending in Tech and World</h4>
                 </GithubLink>
               </Title>
               <div>
