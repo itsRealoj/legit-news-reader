@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { layouts, themes } from 'store/app/utils';
+import { layouts, themes } from '../../store/app/utils';
+import LegitLogo from '../../../src/logol.png';
 
 import {
   Header,
@@ -18,8 +19,7 @@ const Nav = ({ layout, theme, setLayout, setTheme }) => (
       <Content>
         <NavSection>
           <ExternalLink href='https://legitdev.com' target='_blank'>
-            <Logo src='https://gitconnected.com/public/meta/favicon/gc-fav.png' />{' '}
-            Legit Dev
+            <Logo src={LegitLogo} /> Legit Dev
           </ExternalLink>
         </NavSection>
         <NavSection>

@@ -1,4 +1,4 @@
-import { buildActionCreator } from 'store/utils';
+import { buildActionCreator } from '../../store/utils';
 
 const NS = '@hackerNewsReader/app';
 

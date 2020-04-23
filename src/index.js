@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import configureStore from 'store';
-import App from 'components/App';
-import GlobalStyles from 'styles/globals';
-import loadInitialState from 'store/middleware/localStorageMiddleware/loadInitialState';
+import configureStore from './store';
+import App from './components/App';
+import GlobalStyles from './styles/globals';
+import loadInitialState from './store/middleware/localStorageMiddleware/loadInitialState';
 import registerServiceWorker from './registerServiceWorker';
 
 const renderApp = () => {

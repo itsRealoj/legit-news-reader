@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile, tablet, monitor } from 'styles/mediaQueries';
+import { mobile, tablet, monitor } from '../../styles/mediaQueries';
 
 export const GridWrapper = styled.ul`
   display: flex;

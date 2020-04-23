@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ListItem from 'components/ListItem';
+import ListItem from '../../components/ListItem';
 
 import { ListWrapper } from './styles';
 
@@ -13,7 +13,7 @@ class List extends Component {
     const { stories } = this.props;
     return (
       <ListWrapper>
-        {stories.map(story => (
+        {stories.map((story) => (
           <ListItem key={story.id} {...story} />
         ))}
       </ListWrapper>

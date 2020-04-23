@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import Nav from 'components/Nav';
-import List from 'components/List';
-import Grid from 'components/Grid';
-import Loader from 'components/Loader';
-import { layouts, themes } from 'store/app/utils';
-import { colorsDark, colorsLight } from 'styles/palette';
+import Nav from '../../components/Nav';
+import List from '../../components/List';
+import Grid from '../../components/Grid';
+import Loader from '../../components/Loader';
+import { layouts, themes } from '../../store/app/utils';
+import { colorsDark, colorsLight } from '../../styles/palette';
 
 import { Wrapper, Title, TitleWrapper, GithubLink, SocialLink } from './styles';
 
@@ -67,7 +67,7 @@ class App extends Component {
                 <GithubLink
                   href='git@github.com:itsRealoj/legit-developers-news-reader.git'
                   target='_blank'>
-                  (Track Interesting Dev News)
+                  <h3>Interesting Dev News</h3>
                 </GithubLink>
               </Title>
               <div>

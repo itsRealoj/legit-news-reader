@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
-import actions from 'store/story/actions';
-import { hasMoreStoriesSelector } from 'store/story/selectors';
+import actions from '../../store/story/actions';
+import { hasMoreStoriesSelector } from '../../store/story/selectors';
 import App from './App';
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   layout: state.app.layout,
   theme: state.app.theme,
   stories: state.story.stories,
@@ -13,12 +13,10 @@ const mapStateToProps = state => ({
   hasMoreStores: hasMoreStoriesSelector(state),
 });
 
-const mapDispatchToProps = dispatch => ({
-  fetchStories: ({ storyIds, page }) => dispatch(actions.fetchStories({ storyIds, page })),
+const mapDispatchToProps = (dispatch) => ({
+  fetchStories: ({ storyIds, page }) =>
+    dispatch(actions.fetchStories({ storyIds, page })),
   fetchStoriesFirstPage: () => dispatch(actions.fetchStoryIds()),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

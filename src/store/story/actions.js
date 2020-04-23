@@ -1,5 +1,5 @@
-import hackerNewsApi from 'services/hackerNewsApi';
-import { buildRequestCreator } from 'store/utils';
+import hackerNewsApi from '../../services/hackerNewsApi';
+import { buildRequestCreator } from '../../store/utils';
 
 const NS = '@hackerNewsReader/story';
 
@@ -15,22 +15,25 @@ const actions = {
       dispatch(request.request(payload));
       return hackerNewsApi
         .getTopStoryIds()
-        .then(storyIds => {
+        .then((storyIds) => {
           dispatch(request.success({ storyIds }));
           dispatch(actions.fetchStories({ storyIds, page: 0 }));
           return storyIds;
         })
-        .catch(err => dispatch(request.failure(err)));
+        .catch((err) => dispatch(request.failure(err)));
     },
   ),
-  fetchStories: buildRequestCreator(actionTypes.FETCH_STORIES, ({ request, payload, dispatch }) => {
-    const { storyIds, page } = payload;
-    dispatch(request.request(payload));
-    return hackerNewsApi
-      .getStoriesByPage(storyIds, page)
-      .then(stories => dispatch(request.success({ stories })))
-      .catch(err => dispatch(request.failure(err)));
-  }),
+  fetchStories: buildRequestCreator(
+    actionTypes.FETCH_STORIES,
+    ({ request, payload, dispatch }) => {
+      const { storyIds, page } = payload;
+      dispatch(request.request(payload));
+      return hackerNewsApi
+        .getStoriesByPage(storyIds, page)
+        .then((stories) => dispatch(request.success({ stories })))
+        .catch((err) => dispatch(request.failure(err)));
+    },
+  ),
 };
 
 export default actions;
