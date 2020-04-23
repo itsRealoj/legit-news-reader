@@ -22,14 +22,14 @@
     "url": "^0.11.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "NODE_PATH=src react-scripts start",
     "build": "react-scripts build",
     "test": "NODE_PATH=src react-scripts test --env=jsdom",
     "coverage": "npm run test -- --coverage",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "browserslist": [
     ">0.2%",

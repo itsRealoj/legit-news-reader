@@ -63,7 +63,7 @@ class App extends Component {
           <Wrapper>
             <TitleWrapper>
               <Title>
-                <div>{'#Never be left Behind'}</div>
+                <div>{"#DON'T be left Behind"}</div>
                 <GithubLink
                   href='git@github.com:itsRealoj/legit-developers-news-reader.git'
                   target='_blank'>
@@ -81,13 +81,13 @@ class App extends Component {
                   target='blank'>
                   <i className='fab fa-slack-hash' />
                 </SocialLink>
-                <SocialLink href='https://legitdev.com' target='blank'>
+                <SocialLink href='#' target='blank'>
                   <i className='fab fa-medium-m' />
                 </SocialLink>
                 <SocialLink href='#' target='blank'>
                   <i className='fab fa-facebook' />
                 </SocialLink>
-                <SocialLink href='https://legitdev.com' target='blank'>
+                <SocialLink href='#' target='blank'>
                   <i className='fas fa-link' />
                 </SocialLink>
               </div>
