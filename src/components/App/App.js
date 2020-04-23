@@ -63,29 +63,32 @@ class App extends Component {
           <Wrapper>
             <TitleWrapper>
               <Title>
-                <div>{'// Hacker News Reader'}</div>
+                <div>{'#Legit-Dev News Reader'}</div>
                 <GithubLink
-                  href="https://github.com/gitconnected/hacker-news-reader"
-                  target="_blank"
-                >
-                  (build your own)
+                  href='git@github.com:itsRealoj/legit-developers-news-reader.git'
+                  target='_blank'>
+                  (Track Interesting Dev News)
                 </GithubLink>
               </Title>
               <div>
-                <SocialLink href="https://twitter.com/gitconnected" target="blank">
-                  <i className="fab fa-twitter" />
+                <SocialLink
+                  href='https://twitter.com/oj_the_dev'
+                  target='blank'>
+                  <i className='fab fa-twitter' />
                 </SocialLink>
-                <SocialLink href="https://community.gitconnected.com" target="blank">
-                  <i className="fab fa-slack-hash" />
+                <SocialLink
+                  href='https://app.slack.com/client/T012E45TW0Z/D012432UT54/user_profile/U0129DGMG1K'
+                  target='blank'>
+                  <i className='fab fa-slack-hash' />
                 </SocialLink>
-                <SocialLink href="https://levelup.gitconnected.com" target="blank">
-                  <i className="fab fa-medium-m" />
+                <SocialLink href='https://legitdev.com' target='blank'>
+                  <i className='fab fa-medium-m' />
                 </SocialLink>
-                <SocialLink href="https://www.facebook.com/gitconnectednetwork" target="blank">
-                  <i className="fab fa-facebook" />
+                <SocialLink href='#' target='blank'>
+                  <i className='fab fa-facebook' />
                 </SocialLink>
-                <SocialLink href="https://gitconnected.com" target="blank">
-                  <i className="fas fa-link" />
+                <SocialLink href='https://legitdev.com' target='blank'>
+                  <i className='fas fa-link' />
                 </SocialLink>
               </div>
             </TitleWrapper>
@@ -97,9 +100,12 @@ class App extends Component {
               style={{
                 height: '100%',
                 overflow: 'visible',
-              }}
-            >
-              {layout === layouts.list ? <List stories={stories} /> : <Grid stories={stories} />}
+              }}>
+              {layout === layouts.list ? (
+                <List stories={stories} />
+              ) : (
+                <Grid stories={stories} />
+              )}
             </InfiniteScroll>
           </Wrapper>
         </div>
