@@ -1,5 +1,5 @@
 {
-  "homepage": "http://itsrealoj.github.io/legit-developers-news-reader",
+  "homepage": "http://itsrealoj.github.io/legit-news-reader",
   "name": "legit-news-reader",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
     "test": "NODE_PATH=src react-scripts test --env=jsdom",
     "coverage": "npm run test -- --coverage",
     "eject": "react-scripts eject",
-    "format": "./node_modules/.bin/prettier --write \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -39,5 +39,16 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "description": "A Hacker News clone (in night mode!) using all open source technology.",
+  "main": "data-for-testing.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsRealoj/legit-news-reader.git"
+  },
+  "author": "Stephen_Ochieng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsRealoj/legit-news-reader/issues"
   }
 }
